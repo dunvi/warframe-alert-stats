@@ -1,4 +1,4 @@
-#Warframe Alert Statistics
+Warframe Alert Statistics
 ====================
 
 stats tracking for warframe alerts
