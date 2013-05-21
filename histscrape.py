@@ -39,7 +39,7 @@ while True:
     i += 1
 
 # at this point, all of the data has been gathered :D
-
+'''
 # sort by planet
 planetsort = {}
 for key in dataset.keys():
@@ -48,4 +48,5 @@ for key in dataset.keys():
         planetsort[data["planet"]] = {}
     planetsort[data["planet"]][key] = data
 # next sort by mission in planet
+'''
 
