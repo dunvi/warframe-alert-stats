@@ -1,3 +1,4 @@
+336989539446947840 Tue May 21 23:39:01 +0000 2013 Bode (Ceres): Disable Enemy Satellites - 59m - 2000cr
 336981990303739904 Tue May 21 23:09:01 +0000 2013 Vesper (Venus): Enemy Escorts Located - 30m - 4000cr
 336974190479552513 Tue May 21 22:38:02 +0000 2013 Gnathos (Eris): Detained Refugee Located - 30m - 2400cr
 336966892394778624 Tue May 21 22:09:02 +0000 2013 Dione (Saturn): Enemy Support Squadrons Located - 32m - 2000cr

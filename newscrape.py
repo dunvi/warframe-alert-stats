@@ -59,7 +59,7 @@ while True:
     for alert in alerts:
         if first:
             f = open('last_id', 'w')
-            f.write((alert.id))
+            f.write(str(alert.id))
             f.close()
             first = False
         
