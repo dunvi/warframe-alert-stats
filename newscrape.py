@@ -39,7 +39,7 @@ if last_id == '':
                 last_id = alert.id
 
             current_max_id = alert.id - 1
-            print alert.id, alert.created_at, alert.text
+            print alert.created_at, alert.text
 
 # now we have all historical alerts. 
 
@@ -64,5 +64,5 @@ while True:
             first = False
         
         current_max_id = alert.id - 1
-        print alert.id, alert.created_at, alert.text
+        print alert.created_at, alert.text
 
