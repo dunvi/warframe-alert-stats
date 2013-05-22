@@ -25,7 +25,7 @@ def make_document(alert):
            "mission" : text[1],
        "description" : info[0],
           "duration" : duration,
-           "credits" : info[2][:-2],
+           "credits" : int(info[2][:-2]),
     }
 
     if len(info) > 3:

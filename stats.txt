@@ -3,7 +3,11 @@ number of tweets found:  1910
 created timedist-30.png
 created timedist-15.png
 
-average duration:  38
+average duration: 38
+
+average credits: 2896
+
+average credits since update 7.8.0: 3098
 
 a/b/p frequencies:  0.0937172774869 0.0486910994764 0.00942408376963
 

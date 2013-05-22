@@ -46,7 +46,25 @@ print
 # average duration
 durations = [alert["duration"] for alert in alertdb.find()]
 averageduration = sum(durations)/len(durations)
-print "average duration: ", averageduration
+print "average duration:", averageduration
+
+print
+
+# credit awards
+credits = [alert["credits"] for alert in alertdb.find()]
+averagecredits = sum(credits)/len(credits)
+print "average credits:", averagecredits
+
+print
+
+credits = [alert["credits"] for alert in alertdb.find()
+            if alert["start"] > datetime(year=2013,
+                month=4,
+                day=19,
+                hour=21,
+                minute=30)]
+averagecredits = sum(credits)/len(credits)
+print "average credits since update 7.8.0:", averagecredits
 
 print
 
