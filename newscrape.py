@@ -32,13 +32,13 @@ def make_document(alert):
         lookat = info[3]
         if "Artifact" in lookat:
             current["artifact"] = " ".join(lookat.split()[:-1])
-        if "Blueprint" in lookat:
-            current["blueprint"] = " ".join(lookat.split()[:-1])
-        if "Orokin Reactor" in lookat:
+        elif "Orokin Reactor" in lookat:
             current["potato"] = "reactor"
-        if "Orokin Catalyst" in lookat:
+        elif "Orokin Catalyst" in lookat:
             current["potato"] = "catalyst"
-
+        elif "Blueprint" in lookat:
+            current["blueprint"] = " ".join(lookat.split()[:-1])
+ 
     if len(info) > 4:
         print "more arguments than expected!"
 
