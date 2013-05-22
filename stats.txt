@@ -1,4 +1,4 @@
-number of tweets found:  1910
+number of tweets found:  1911
 
 created timedist-30.png
 created timedist-15.png
@@ -13,7 +13,7 @@ average credits since update 7.8.0: 3098
 
 created creditdist-7-8-0.png
 
-a/b/p frequencies:  0.0937172774869 0.0486910994764 0.00942408376963
+a/b/p frequencies:  0.0936682365254 0.0486656200942 0.0094191522763
 
 Types of artifacts: 179
 Energy Siphon       : 17

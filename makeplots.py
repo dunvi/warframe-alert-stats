@@ -27,7 +27,7 @@ plt.gca().xaxis.set_major_formatter(xfmt)
 plt.xticks(rotation = 25)
 
 plt.hist(starttimes, bins=48)
-plt.savefig('timedist-30')
+plt.savefig('images/timedist-30')
 print "created timedist-30.png"
 
 plt.clf()
@@ -38,7 +38,7 @@ plt.gca().xaxis.set_major_formatter(xfmt)
 plt.xticks(rotation = 25)
 
 plt.hist(starttimes, bins=96)
-plt.savefig('timedist-15')
+plt.savefig('images/timedist-15')
 print "created timedist-15.png"
 
 plt.clf()
@@ -62,7 +62,7 @@ print
 plt.xticks(rotation = 25)
 
 plt.hist(credits, bins=50)
-plt.savefig('creditdist-all')
+plt.savefig('images/creditdist-all')
 print "created creditdist-all.png"
 
 plt.clf()
@@ -83,7 +83,7 @@ print
 plt.xticks(rotation = 25)
 
 plt.hist(credits, bins=50)
-plt.savefig('creditdist-7-8-0')
+plt.savefig('images/creditdist-7-8-0')
 print "created creditdist-7-8-0.png"
 
 plt.clf()
