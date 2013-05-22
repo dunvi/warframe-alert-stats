@@ -7,7 +7,11 @@ average duration: 38
 
 average credits: 2896
 
+created creditdist-all.png
+
 average credits since update 7.8.0: 3098
+
+created creditdist-7-8-0.png
 
 a/b/p frequencies:  0.0937172774869 0.0486910994764 0.00942408376963
 

@@ -41,6 +41,8 @@ plt.hist(starttimes, bins=96)
 plt.savefig('timedist-15')
 print "created timedist-15.png"
 
+plt.clf()
+
 print 
 
 # average duration
@@ -57,6 +59,16 @@ print "average credits:", averagecredits
 
 print
 
+plt.xticks(rotation = 25)
+
+plt.hist(credits, bins=50)
+plt.savefig('creditdist-all')
+print "created creditdist-all.png"
+
+plt.clf()
+
+print
+
 credits = [alert["credits"] for alert in alertdb.find()
             if alert["start"] > datetime(year=2013,
                 month=4,
@@ -65,6 +77,16 @@ credits = [alert["credits"] for alert in alertdb.find()
                 minute=30)]
 averagecredits = sum(credits)/len(credits)
 print "average credits since update 7.8.0:", averagecredits
+
+print
+
+plt.xticks(rotation = 25)
+
+plt.hist(credits, bins=50)
+plt.savefig('creditdist-7-8-0')
+print "created creditdist-7-8-0.png"
+
+plt.clf()
 
 print
 
