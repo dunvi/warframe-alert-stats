@@ -1,0 +1,49 @@
+number of tweets found:  1910
+
+created timedist-30.png
+created timedist-15.png
+
+average duration:  38
+
+a/b/p frequencies:  0.0937172774869 0.0486910994764 0.00942408376963
+
+Types of artifacts: 179
+Energy Siphon       :  17
+Rejuvenation        :  9
+Shotgun Scavenger   :  22
+Pistol Scavenger    :  16
+Enemy Radar         :  18
+Physique            :  16
+Sniper Scavenger    :  19
+Rifle Amp           :  23
+Rifle Scavenger     :  26
+Steel Charge        :  13
+
+Types of blueprints: 93
+Plasma Sword        :  2
+Dark Dagger         :  4
+Brokk Hammer        :  3
+Orokin Reactor      :  3
+Glaive              :  4
+Frost Helmet        :  5
+Saryn Helmet        :  3
+Nyx Helmet          :  4
+Loki Helmet         :  3
+Ember Helmet        :  3
+Ash Helmet          :  3
+Heat Dagger         :  5
+Dark Sword          :  5
+Excalibur Helmet    :  3
+Trinity Helmet      :  4
+Orokin Catalyst     :  4
+Dual Dagger         :  2
+Mag Helmet          :  5
+Jaw Sword           :  4
+Ceramic Dagger      :  5
+Pangolin Sword      :  4
+Rhino Helmet        :  4
+Vauban Systems      :  1
+Heat Sword          :  4
+Dagger Axe          :  4
+Banshe Helmet       :  2
+

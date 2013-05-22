@@ -1,4 +1,6 @@
 #!/bin/bash
-python newscrape.py
-python makeplots.py
+rm stats.txt
+touch stats.txt
+python newscrape.py >> stats.txt
+python makeplots.py >> stats.txt
 
