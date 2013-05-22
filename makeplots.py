@@ -85,7 +85,7 @@ for alert in alertdb.find():
     if alert["credits"] == 2000:
         credits2000 += 1
 
-print "percentage 2000cr reward:", credits2000/alertdb.count() 
+print "percentage 2000cr reward:", float(credits2000)/alertdb.count() 
 
 print
 
