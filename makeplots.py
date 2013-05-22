@@ -28,6 +28,10 @@ plt.savefig('timedist-30')
 
 plt.clf()
 
+xfmt = d.DateFormatter('%H:%M')
+plt.gca().xaxis.set_major_formatter(xfmt)
+plt.xticks(rotation = 25)
+
 plt.hist(starttimes, bins=96)
 plt.savefig('timedist-15')
 
