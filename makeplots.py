@@ -69,12 +69,14 @@ plt.clf()
 
 print
 
+update = datetime(year=2013,
+    month=4,
+    day=19,
+    hour=21,
+    minute=30)
+
 credits = [alert["credits"] for alert in alertdb.find()
-            if alert["start"] > datetime(year=2013,
-                month=4,
-                day=19,
-                hour=21,
-                minute=30)]
+            if alert["start"] > update]
 averagecredits = sum(credits)/len(credits)
 print "average credits since update 7.8.0:", averagecredits
 
@@ -86,6 +88,14 @@ for alert in alertdb.find():
         credits2000 += 1
 
 print "percentage 2000cr reward:", float(credits2000)/alertdb.count() 
+
+credits2000 = 0
+for alert in alertdb.find():
+    if alert["start"] > update:
+        if alert["credits"] == 2000:
+            credits2000 += 1
+
+print "percentage 2000cr reward since update 7.8.9:", float(credits2000)/alertdb.count()
 
 print
 
