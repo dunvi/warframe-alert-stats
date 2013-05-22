@@ -73,7 +73,9 @@ for artifact in artifacts:
 
 print "Types of artifacts:", artifacts.count()
 for artifact in current.iteritems():
-    print artifact[0], (18-len(artifact[0]))*" ", ": ", artifact[1]
+    print artifact[0], (18-len(artifact[0]))*" ", ":", artifact[1]
+
+print
 
 current = { }
 for blueprint in blueprints:
@@ -82,11 +84,19 @@ for blueprint in blueprints:
     else:
         current[blueprint["blueprint"]] = 1
 
-print
-
 print "Types of blueprints:", blueprints.count()
 for blueprint in current.iteritems():
-    print blueprint[0], (18-len(blueprint[0]))*" ", ": ", blueprint[1]
+    print blueprint[0], (18-len(blueprint[0]))*" ", ":", blueprint[1]
+
+print
+
+current = { "reactor" : 0, "catalyst" : 0 }
+for potato in potatoes:
+    current[potato["potato"]] += 1
+
+print "Types of potatoes:", potatoes.count()
+print "Orokin Reactor  :", current["reactor"]
+print "Orokin Catalyst :", current["catalyst"]
 
 print
 
