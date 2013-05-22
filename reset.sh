@@ -1,6 +1,6 @@
 #!/bin/bash
-rm data.txt
+mongo warframe --eval "db.dropDatabase()"
 rm last_id
 touch last_id
-python newscrape.py >> data.txt
+python newscrape.py
 

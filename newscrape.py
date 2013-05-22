@@ -1,8 +1,53 @@
 #!usr/bin/python
 #
 
+import time
 from datetime import datetime
+
+def make_document(alert):
+    timestamp = time.strptime(alert.created_at, "%a %b %d %H:%M:%S +0000 %Y")
+       
+    text = alert.text.split()
+    info = " ".join(text[2:]).split(" - ")
+            
+    duration = info[1]
+    if duration[-1] == 'm':
+        duration = int(duration[:-1])
+    elif duration[-1] == 'h':
+        duration = 60*int(duration[:-1])
+    else:
+        duration = None
+        print "could not parse duration"
+
+    current = {"_id" : alert.id,
+             "start" : datetime.fromtimestamp(time.mktime(timestamp)),
+            "planet" : text[2][1:-2],
+           "mission" : text[1],
+       "description" : info[0],
+          "duration" : duration,
+           "credits" : info[2][:-2],
+    }
+
+    if len(info) > 3:
+        lookat = info[3]
+        if "Artifact" in lookat:
+            current["artifact"] = " ".join(lookat.split()[:-1])
+        if "Blueprint" in lookat:
+            current["blueprint"] = " ".join(lookat.split()[:-1])
+        if "Orokin Reactor" in lookat:
+            current["potato"] = "reactor"
+        if "Orokin Catalyst" in lookat:
+            current["potato"] = "catalyst"
+
+    if len(info) > 4:
+        print "more arguments than expected!"
+
+    return current
+
 import twitter
+from pymongo import MongoClient
+db = MongoClient().warframe
+alertdb = db.alerts
 
 import credentials
 api = twitter.Api(consumer_key = credentials.consumer_key(),
@@ -10,7 +55,7 @@ api = twitter.Api(consumer_key = credentials.consumer_key(),
                   access_token_key = credentials.access_token_key(),
                   access_token_secret = credentials.access_token_secret())
 
-if ( api.VerifyCredentials() == None):
+if (api.VerifyCredentials() == None):
     sys.exit("Error with credentials!")
 
 warframe = 1344755923
@@ -29,7 +74,6 @@ if last_id == '':
         if alerts == []:
             break
     
-# will not be in date order, but who cares?
         for alert in alerts:
             # get last_id if it's the very first one
             if last_id == '':
@@ -39,7 +83,8 @@ if last_id == '':
                 last_id = alert.id
 
             current_max_id = alert.id - 1
-            print alert.created_at, alert.text
+            current = make_document(alert)
+            alertdb.insert(current)
 
 # now we have all historical alerts. 
 
@@ -64,5 +109,9 @@ while True:
             first = False
         
         current_max_id = alert.id - 1
-        print alert.created_at, alert.text
+        current = make_document(alert)
+        alertdb.insert(current)
+
+# some sanity checks
+print "number of tweets found: ", alertdb.count()
 
