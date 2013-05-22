@@ -80,6 +80,15 @@ print "average credits since update 7.8.0:", averagecredits
 
 print
 
+credits2000 = 0
+for alert in alertdb.find():
+    if alert["credits"] == 2000:
+        credits2000 += 1
+
+print "percentage 2000cr reward:", credits2000/alertdb.count() 
+
+print
+
 plt.xticks(rotation = 25)
 
 plt.hist(credits, bins=50)
