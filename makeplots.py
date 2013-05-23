@@ -54,10 +54,6 @@ print
 
 # credit awards
 credits = [alert["credits"] for alert in alertdb.find()]
-averagecredits = sum(credits)/len(credits)
-print "average credits:", averagecredits
-
-print
 
 plt.xticks(rotation = 25)
 
@@ -68,6 +64,9 @@ print "created creditdist-all.png"
 plt.clf()
 
 print
+
+averagecredits = sum(credits)/len(credits)
+print "average credits:", averagecredits
 
 update = datetime(year=2013,
     month=4,

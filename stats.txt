@@ -5,10 +5,9 @@ created timedist-15.png
 
 average duration: 38
 
-average credits: 2898
-
 created creditdist-all.png
 
+average credits: 2898
 average credits since update 7.8.0: 3100
 
 percentage 2000cr reward: 0.447807933194
