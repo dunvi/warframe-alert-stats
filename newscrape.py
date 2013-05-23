@@ -103,6 +103,7 @@ while True:
 # save the id of the most recent tweet accessed
     for alert in alerts:
         if first:
+            print "new alerts found!"
             f = open('last_id', 'w')
             f.write(str(alert.id))
             f.close()
@@ -111,7 +112,4 @@ while True:
         current_max_id = alert.id - 1
         current = make_document(alert)
         alertdb.insert(current)
-
-# some sanity checks
-print "number of tweets found: ", alertdb.count()
 

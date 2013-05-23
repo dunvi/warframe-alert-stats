@@ -1,5 +1,4 @@
-number of tweets found:  1916
-
+1921
 created timedist-30.png
 created timedist-15.png
 
@@ -7,15 +6,15 @@ average duration: 38
 
 created creditdist-all.png
 
-average credits: 2898
-average credits since update 7.8.0: 3100
+average credits: 2896
+average credits since update 7.8.0: 3097
 
-percentage 2000cr reward: 0.447807933194
-percentage 2000cr reward since update 7.8.9: 0.435803757829
+percentage 2000cr reward: 0.448724622592
+percentage 2000cr reward since update 7.8.9: 0.436751691827
 
 created creditdist-7-8-0.png
 
-a/b/p frequencies:  0.0939457202505 0.044885177453 0.00939457202505
+a/b/p frequencies:  0.0937011972931 0.0447683498178 0.00937011972931
 
 Types of artifacts: 180
 Energy Siphon       : 17
@@ -58,4 +57,6 @@ Banshe Helmet       : 2
 Types of potatoes: 18
 Orokin Reactor  : 8
 Orokin Catalyst : 10
+
+created potatoes-30.png
 

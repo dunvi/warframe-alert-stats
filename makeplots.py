@@ -14,7 +14,7 @@ import itertools
 
 from datetime import date, datetime
 
-print
+print alertdb.count()
 
 # start time distribution
 starttimes = [d.date2num(datetime.combine(date.today(),
@@ -155,6 +155,26 @@ for potato in potatoes:
 print "Types of potatoes:", potatoes.count()
 print "Orokin Reactor  :", current["reactor"]
 print "Orokin Catalyst :", current["catalyst"]
+
+print 
+
+# start time distribution - 30 minute bins
+potatoes = alertdb.find({ "potato" : { "$exists" : True } })
+starttimes = [d.date2num(datetime.combine(date.today(),
+                                          alert["start"].time()))
+                for alert in potatoes
+                if alert["duration"] < 900]
+
+xfmt = d.DateFormatter('%H:%M')
+plt.gca().xaxis.set_major_formatter(xfmt)
+plt.xticks(rotation = 25)
+
+plt.hist(starttimes, bins=48)
+plt.savefig('images/potatoes-30')
+print "created potatoes-30.png"
+
+plt.clf()
+
 
 print
 
