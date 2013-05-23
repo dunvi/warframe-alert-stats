@@ -1,4 +1,4 @@
-1921
+1954
 created timedist-30.png
 created timedist-15.png
 
@@ -6,31 +6,31 @@ average duration: 38
 
 created creditdist-all.png
 
-average credits: 2896
-average credits since update 7.8.0: 3097
+average credits: 2897
+average credits since update 7.8.0: 3093
 
-percentage 2000cr reward: 0.448724622592
-percentage 2000cr reward since update 7.8.9: 0.436751691827
+percentage 2000cr reward: 0.450870010235
+percentage 2000cr reward since update 7.8.9: 0.439099283521
 
 created creditdist-7-8-0.png
 
-a/b/p frequencies:  0.0937011972931 0.0447683498178 0.00937011972931
+a/b/p frequencies:  0.0946775844422 0.0450358239509 0.00921187308086
 
-Types of artifacts: 180
+Types of artifacts: 185
 Energy Siphon       : 17
 Rejuvenation        : 9
-Shotgun Scavenger   : 22
+Shotgun Scavenger   : 23
 Pistol Scavenger    : 16
-Enemy Radar         : 19
+Enemy Radar         : 20
 Physique            : 16
-Sniper Scavenger    : 19
-Rifle Amp           : 23
+Sniper Scavenger    : 20
+Rifle Amp           : 24
 Rifle Scavenger     : 26
-Steel Charge        : 13
+Steel Charge        : 14
 
-Types of blueprints: 86
+Types of blueprints: 88
 Plasma Sword        : 2
-Dark Dagger         : 4
+Dark Dagger         : 5
 Brokk Hammer        : 3
 Glaive              : 4
 Frost Helmet        : 5
@@ -39,7 +39,7 @@ Nyx Helmet          : 4
 Loki Helmet         : 3
 Ember Helmet        : 3
 Ash Helmet          : 3
-Heat Dagger         : 5
+Heat Dagger         : 6
 Dark Sword          : 5
 Excalibur Helmet    : 3
 Trinity Helmet      : 4
