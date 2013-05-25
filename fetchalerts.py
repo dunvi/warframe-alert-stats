@@ -4,6 +4,14 @@
 #   establishes a connection to the database
 #   parses the alerts and insert them
 #
+# NOTES:
+#   need to check the inconsistency with last_id, but it looks
+#       like the python-twitter interface automatically parses
+#       the ids into numbers, which means that in places I may
+#       have been using strings for the document's _id field.
+#       That was silly.
+#   trying to use the with idiom for opening and closing files,
+#       need to double check that I'm doing it right though :\
 
 # used in the documents
 import time
