@@ -31,6 +31,12 @@ happen, but for now just starting with the basics.
 
 :D
 
+#### Todos:
+
+* typos! correct for them somehow
+    * banshe helmet vs banshee helmet
+* see update.sh for improvements (commandline parameters etc.)
+
 #### want your own?
 Sorry, I'm not gonna make it easy, but I will tell you what
 I am using.

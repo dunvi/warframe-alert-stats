@@ -1,4 +1,4 @@
-2053
+2099
 created timedist-30.png
 created timedist-15.png
 
@@ -6,29 +6,29 @@ average duration: 38
 
 created creditdist-all.png
 
-average credits: 2914
-average credits since update 7.8.0: 3102
+average credits: 2915
+average credits since update 7.8.0: 3099
 
-percentage 2000cr reward: 0.453482708232
-percentage 2000cr reward since update 7.8.9: 0.442279590843
+percentage 2000cr reward: 0.456884230586
+percentage 2000cr reward since update 7.8.9: 0.445926631729
 
 created creditdist-7-8-0.png
 
-a/b/p frequencies:  0.0940087676571 0.0457866536775 0.00876765708719
+a/b/p frequencies:  0.0933777989519 0.0452596474512 0.00905192949023
 
-Types of artifacts: 193
-Energy Siphon       : 18
+Types of artifacts: 196
+Energy Siphon       : 19
 Rejuvenation        : 9
 Shotgun Scavenger   : 24
-Pistol Scavenger    : 16
+Pistol Scavenger    : 17
 Enemy Radar         : 23
 Physique            : 16
 Sniper Scavenger    : 21
-Rifle Amp           : 24
+Rifle Amp           : 25
 Rifle Scavenger     : 27
 Steel Charge        : 15
 
-Types of blueprints: 94
+Types of blueprints: 95
 Plasma Sword        : 2
 Dark Dagger         : 5
 Brokk Hammer        : 3
@@ -36,7 +36,7 @@ Saryn Helmet        : 3
 Volt Helmet         : 1
 Glaive              : 4
 Frost Helmet        : 5
-Nyx Helmet          : 4
+Nyx Helmet          : 5
 Vauban Helmet       : 1
 Ember Helmet        : 3
 Loki Helmet         : 3
@@ -57,9 +57,9 @@ Heat Sword          : 4
 Dagger Axe          : 4
 Banshe Helmet       : 2
 
-Types of potatoes: 18
+Types of potatoes: 19
 Orokin Reactor  : 8
-Orokin Catalyst : 10
+Orokin Catalyst : 11
 
 created potatoes-30.png
 
