@@ -1,4 +1,4 @@
-2099
+2231
 created timedist-30.png
 created timedist-15.png
 
@@ -6,55 +6,56 @@ average duration: 38
 
 created creditdist-all.png
 
-average credits: 2915
-average credits since update 7.8.0: 3099
+average credits: 2913
+average credits since update 7.8.0: 3084
 
-percentage 2000cr reward: 0.456884230586
-percentage 2000cr reward since update 7.8.9: 0.445926631729
+percentage 2000cr reward: 0.466158673241
+percentage 2000cr reward since update 7.8.9: 0.45584939489
 
 created creditdist-7-8-0.png
 
-a/b/p frequencies:  0.0933777989519 0.0452596474512 0.00905192949023
+a/b/p frequencies:  0.0941281936351 0.0461676378306 0.00851636037651
 
-Types of artifacts: 196
+Types of artifacts: 210
 Energy Siphon       : 19
-Rejuvenation        : 9
+Rejuvenation        : 13
 Shotgun Scavenger   : 24
-Pistol Scavenger    : 17
-Enemy Radar         : 23
-Physique            : 16
-Sniper Scavenger    : 21
-Rifle Amp           : 25
-Rifle Scavenger     : 27
+Pistol Scavenger    : 18
+Enemy Radar         : 24
+Physique            : 19
+Sniper Scavenger    : 23
+Rifle Amp           : 27
+Rifle Scavenger     : 28
 Steel Charge        : 15
 
-Types of blueprints: 95
+Types of blueprints: 103
 Plasma Sword        : 2
 Dark Dagger         : 5
 Brokk Hammer        : 3
-Saryn Helmet        : 3
+Saryn Helmet        : 4
 Volt Helmet         : 1
+Vauban Chassis      : 1
 Glaive              : 4
 Frost Helmet        : 5
 Nyx Helmet          : 5
 Vauban Helmet       : 1
 Ember Helmet        : 3
 Loki Helmet         : 3
-Heat Dagger         : 6
+Heat Dagger         : 8
 Ash Helmet          : 3
 Excalibur Helmet    : 3
 Banshee Helmet      : 1
 Trinity Helmet      : 5
 Rhino Helmet        : 4
-Dual Dagger         : 2
+Dual Dagger         : 3
 Mag Helmet          : 6
 Jaw Sword           : 4
 Ceramic Dagger      : 5
-Pangolin Sword      : 4
+Pangolin Sword      : 5
 Dark Sword          : 5
 Vauban Systems      : 2
-Heat Sword          : 4
-Dagger Axe          : 4
+Heat Sword          : 5
+Dagger Axe          : 5
 Banshe Helmet       : 2
 
 Types of potatoes: 19
